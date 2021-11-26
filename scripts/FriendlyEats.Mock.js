@@ -23,6 +23,7 @@ FriendlyEats.prototype.addMockRestaurants = function() {
 
   for (var i = 0; i < 20; i++) {
     var name =
+        'random' +
         this.getRandomItem(this.data.words) +
         ' ' +
         this.getRandomItem(this.data.words);
